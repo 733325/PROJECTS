@@ -1,4 +1,4 @@
-.title{
+/*.title{
 
 }
 .content{
@@ -7,6 +7,14 @@
 iframe{
 
 }
-a{
+footer{
 
+}*/
+body{
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+}
+a:link, a:visited, a:hover, a:active{
+        margin:2em;
+        color:white;
+        font-size:20px;  
 }
