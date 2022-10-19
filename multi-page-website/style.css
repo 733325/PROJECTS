@@ -1,24 +1,41 @@
-/*.title{
-
+.title{
+    margin: 50px;
+    color:#efecec
 }
 .content{
-
+    color:#efecec
+    margin 5px;
 }
-*/
+
 iframe{
-width:100%;
-height:60%;
+width: 90%;
+height: 700px;
+border-color: second-color;
 }
-/*
-footer{
 
-}*/
 body{
-    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+    width: 80%;
+    color: #efecec;
+    background: #363434
 }
 
 a:link, a:visited, a:hover, a:active{
         margin:2em;
-        color:white;
+        color:third-color;
         font-size:20px;  
+}
+.first-color { 
+	background: #363434; 
+}
+	
+.second-color { 
+	background: #5c5757; 
+}
+
+.third-color { 
+	background: #62929a; 
+}
+
+.fourth-color { 
+	background: #efecec; 
 }
