@@ -4,15 +4,19 @@
 .content{
 
 }
+*/
 iframe{
-
+width:100%;
+height:60%;
 }
+/*
 footer{
 
 }*/
 body{
-    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
+
 a:link, a:visited, a:hover, a:active{
         margin:2em;
         color:white;
