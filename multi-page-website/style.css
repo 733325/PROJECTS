@@ -1,28 +1,38 @@
 .title{
-    margin: 50px;
-    color:#efecec
+    text-align: center;
+    font-size: x-large;
+    margin-top: 30px;
+    color:#62929a
 }
 .content{
+    font-size: large;
+    margin: 10px;
     color:#efecec
-    margin 5px;
 }
 
 iframe{
+margin: 50px;
 width: 90%;
-height: 700px;
-border-color: second-color;
+height: 750px;
+border-color: #5c5757;
 }
 
 body{
-    width: 80%;
     color: #efecec;
     background: #363434
 }
 
-a:link, a:visited, a:hover, a:active{
+a:link,a:visited, a:hover, a:active{
         margin:2em;
-        color:third-color;
-        font-size:20px;  
+        color:#62929a;
+        font-size:20px; 
+}
+.caption{
+    font-size: smaller;
+    color: tan;
+}
+footer{
+    text-align: center;
 }
 .first-color { 
 	background: #363434; 
