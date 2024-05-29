@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<style>
+    	    #textbox{
+                    margin: 10px;
+                    border: 1px solid black;
+                    height: 200px;
+                }
+            #keyboard{
+                    text-align: center;
+                }
+        </style>
+	</head>
+    <body>
+        <div id = 'keyboard'>
+        </div>
+        
+        <div id = 'textbox'>
+        </div>
+    </body>
+    
+    <script>
+        var alpha = ['q','w','e','r','t','y','u','i','o','p','a','s',
+            'd','f','g','h','j','k','l',';','\'',
+            'z','x','c','v','b','n','m', ',','.'];
+            
+            //copy makeButton and makeText functions from previous exercise
+        makeKeyBoard();
+        function makeButton(letter)
+        {
+            var button = document.createElement("button");
+            button.addEventListener("click", makeText)
+            button.append(letter);
+            document.getElementById('keyboard').append(button);
+        }
+        
+        
+        function makeKeyBoard()
+        {
+            
+            for(var i = 1; i < alpha.length + 1; i++)
+            {
+                makeButton(alpha[i - 1]);
+                if(i % 10 == 0)
+                {
+                    var line = document.createElement("br");
+                    document.getElementById('keyboard').append(line);
+                }
+            }
+        }
+        
+        function makeText()
+        {
+            if(this.innerHTML == "Space")
+            {
+                document.getElementById('textbox').append(" ");
+                //alternate solution that allows for multiple spaces
+                //document.getElementById('textbox').append("\u00A0");
 
+            }
+            else
+            {
+                document.getElementById('textbox').append(this.innerHTML);
+            }
+        }
+        
+            //create makeKeyboard function
+    </script>
+</html>
